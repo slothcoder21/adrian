@@ -35,8 +35,7 @@ const AboutPage = () => {
                             <h3 className="text-black font-semibold">UC Davis '26. Student, Software Egineering, and AI Researcher</h3> 
                         </div>
                         <p className="text-black">
-                            I am currently a student at the University of California, Davis. I am also double majoring in Computer Science 
-                            and Statistics with an emphasis in Machine Learning in addition completing a minor in Technology Management.
+                          Hi, my name is Adrian Lam and I am a 4th year Computer Science and Statistcs student at the University of California, Davis.
                         </p>
                         <p className="text-black">
                             My technical interests include: Machine Learning, Artificial Intelligence, Product Management, Financial Analysis, App Development, and Web Development.
