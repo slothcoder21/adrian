@@ -16,6 +16,15 @@ const Homepage = () => {
                 <div className="h-1/2 flex flex-col gap-8 justify-center lg:h-full lg:w-1/2">
                     <h1 className="text-4xl md:text-6xl font-bold text-black">Hi, I'm Adrian.</h1>
                     <p className="text-xl md:text-2xl font-light text-black">Welcome to my personal website! I'm a student at UC Davis and an aspiring software engineer.</p>
+                    <a href=".\adriansResume.pdf" className="flex flex-row items-center gap-3">
+                        <Image 
+                        src="/resume.png"
+                        alt=""
+                        width={40}
+                        height={40}
+                        />
+                        <p className="text-black">My Resume</p>
+                    </a>
                 </div>
             </div>
         </motion.div>
