@@ -82,67 +82,67 @@ const AboutPage = () => {
               animate={isSkillRefInView ? { x: 0 } : {}}
               className="flex gap-4 flex-wrap"
             >
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 C++
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 Python
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 Java
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 x86
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 R
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 MATLAB
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 MongoDB
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 JavaScript
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 TypeScript
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 React.js
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 React Native
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 SCSS
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 Tailwind CSS
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 SQLite
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 Node.js
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 Next.js
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 Framer Motion
             </div>
-             <div className="rounded p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+             <div className="rounded p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 Three.js
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 Firebase
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 Git
             </div>
-            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white hover:bg-white hover:text-black shadow">
+            <div className="rounded  p-2 text-sm cursor-pointer bg-[#5A5A5A] text-white shadow">
                 Figma
             </div>
             </motion.div>
@@ -235,7 +235,7 @@ const AboutPage = () => {
                 {/* RIGHT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-[#7097A8] text-black p-3 font-semibold rounded-b-lg rounded-s-lg">
+                  <div className="bg-[#7097A8] text-black p-3 font-semibold rounded-b-lg rounded-e-lg">
                     B.S. in Computer Science and Statistics
                   </div>
                   {/* JOB DESC */}
@@ -298,7 +298,7 @@ const AboutPage = () => {
                 {/* RIGHT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-[#7097A8] text-black p-3 font-semibold rounded-b-lg rounded-s-lg">
+                  <div className="bg-[#7097A8] text-black p-3 font-semibold rounded-b-lg rounded-e-lg">
                     Undergradute Researcher
                   </div>
                   {/* JOB DESC */}

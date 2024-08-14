@@ -15,19 +15,7 @@ const Homepage = () => {
                 {/** Text */}
                 <div className="h-1/2 flex flex-col gap-8 justify-center lg:h-full lg:w-1/2">
                     <h1 className="text-4xl md:text-6xl font-bold text-black">Hi, I'm Adrian.</h1>
-                    <p className="text-xl md:text-2xl font-light text-black">Welcome to my personal website! I'm a student at UC Davis and an aspiring software engineer. Feel free to explore around to find out more facts about me!</p>
-                    <div className="flex gap-4">
-                        <button className="rounded-lg p-4 bg-white text-[#5A5A5A] shadow-md">
-                            <Link href="/projects">
-                                View My Projects
-                            </Link>
-                        </button>
-                        <button className="rounded-lg p-4 bg-[#5A5A5A] shadow-lg" href="">
-                            <Link href="/contact">
-                                Contact Me
-                            </Link>
-                        </button>
-                    </div>
+                    <p className="text-xl md:text-2xl font-light text-black">Welcome to my personal website! I'm a student at UC Davis and an aspiring software engineer.</p>
                 </div>
             </div>
         </motion.div>
