@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 
 const links = [
     { url: "/" , title:"Home"},
-    { url: "/About" , title:"About"},
-    { url: "/Projects" , title:"Projects"},
+    { url: "/about" , title:"About"},
+    { url: "/arojects" , title:"Projects"},
 ];
 
 const Navbar = () => {
