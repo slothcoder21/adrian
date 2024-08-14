@@ -32,7 +32,7 @@ const AboutPage = () => {
             <h1 className="font-bold text-4xl text-black">Who am I?</h1>
                         <div>
                             <h2 className= "font-semibold text-xl text-black">Adrian Lam</h2>
-                            <h3 className="text-black font-semibold">UC Davis '26. Student, Software Egineering, and AI Researcher</h3> 
+                            <h3 className="text-black font-semibold">UC Davis '26. Student, Full Stack Developer Intern, and AI Researcher</h3> 
                         </div>
                         <p className="text-black">
                           Hi, my name is Adrian Lam and I am a 4th year Computer Science and Statistcs student at the University of California, Davis.
