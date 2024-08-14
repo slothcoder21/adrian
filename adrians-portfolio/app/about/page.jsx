@@ -2,6 +2,7 @@
 
 import { motion, useInView, useScroll } from "framer-motion";
 import { useRef } from "react";
+import { Globe } from "@/components/globe";
 
 const AboutPage = () => {
   const containerRef = useRef();
@@ -34,8 +35,8 @@ const AboutPage = () => {
                             <h3 className="text-black font-semibold">UC Davis '26. Student, Software Egineering, and AI Researcher</h3> 
                         </div>
                         <p className="text-black">
-                            I am currently a student at the University of California, Davis. I am double majoring in Computer Science 
-                            and Statistics with an emphasis in Machine Learning. I am also completing a minor in Technology Management.
+                            I am currently a student at the University of California, Davis. I am also double majoring in Computer Science 
+                            and Statistics with an emphasis in Machine Learning in addition completing a minor in Technology Management.
                         </p>
                         <p className="text-black">
                             My technical interests include: Machine Learning, Artificial Intelligence, Product Management, Financial Analysis, App Development, and Web Development.
@@ -74,7 +75,7 @@ const AboutPage = () => {
               transition={{ delay: 0.2 }}
               className="font-bold text-2xl text-black"
             >
-              SKILL
+              TECHNICAL SKILLS
             </motion.h1>
             {/* SKILL LIST */}
             <motion.div
@@ -317,6 +318,9 @@ const AboutPage = () => {
               </div>
             </motion.div>
           </div>
+        </div>
+        <div className="hidden lg:block w-1/3 sticky top-0 z-30 xl:w-1/2">
+          <Globe fill />
         </div>
       </div>
     </motion.div>

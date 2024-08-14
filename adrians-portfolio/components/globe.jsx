@@ -25,7 +25,7 @@ function MeshComponent() {
 export function Globe() {
   return (
     <div className='flex justify-center items-center h-screen relative overflow-hidden'>
-      <Canvas className="w-1/2 h-1/2"camera={{ position: [0, 1, 3], fov: 10}}>
+      <Canvas className="w-full h-full"camera={{ position: [0, 1, 3], fov: 10}}>
         <OrbitControls />
         <ambientLight intensity={5}/>
         <pointLight position={[10, 10, 10]} />
