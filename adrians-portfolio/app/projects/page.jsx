@@ -37,14 +37,6 @@ const items = [
         img: "/noteTake.svg",
         link: "https://devpost.com/software/videonotes",
     },
-    {
-        id: 5,
-        color: "from-[#FFF4C0] to-[#C9EC9B]",
-        title: "eCommute",
-        desc: "A web app developed to help drivers make eco-concious decisions by recommending alternative modes of transportation. Utilizing Google Maps' API and Gas API, we could make an estimate on overall travel costs and the amount of emmissions the user would emit.",
-        img: "/eCommute.svg",
-        link: "https://devpost.com/software/eco-mute-2mdsgf",
-    },
 ];
 
 const PortfolioPage = () => {
