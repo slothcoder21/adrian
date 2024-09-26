@@ -266,7 +266,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-black text-sm font-semibold">
-                    2024 - Present{" "}
+                    2024{" "}
                   </div>
                   <div className="p-1 rounded bg-[#7097A8] text-black text-sm font-semibold w-fit">
                     Neoteric Solutions Inc.

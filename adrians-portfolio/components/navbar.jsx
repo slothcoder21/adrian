@@ -9,6 +9,7 @@ const links = [
     { url: "/" , title:"Home"},
     { url: "/about" , title:"About"},
     { url: "/projects" , title:"Projects"},
+    { url: "/test" , title:"Test"},
 ];
 
 const Navbar = () => {
