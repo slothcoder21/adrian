@@ -125,6 +125,12 @@ const AboutPage = () => {
                 SQLite
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
+                SQL
+            </div>
+            <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
+                Flask
+            </div>
+            <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
                 Node.js
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
@@ -307,13 +313,44 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-black text-sm font-semibold">
-                    2024 - Present{" "}
+                    2024 - 2025{" "}
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-[#7097A8] text-sm font-semibold w-fit text-black">
                     UC Berkeley
                   </div>
                 </div>
+              </div>
+               {/* EXPERIENCE LIST ITEM */}
+               <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 ">
+                  {/* JOB TITLE */}
+                  <div className="bg-[#7097A8] text-black p-3 font-semibold rounded-b-lg rounded-s-lg">
+                    Web Developer Coordinator{" "}
+                  </div>
+                  {/* JOB DESC */}
+                  <div className="p-3 text-sm italic text-black">
+                    Developing a new management software using Flask, SQL and NextJS{" "}
+                  </div>
+                  {/* JOB DATE */}
+                  <div className="p-3 text-black text-sm font-semibold">
+                    2025 {" "}
+                  </div>
+                  <div className="p-1 rounded bg-[#7097A8] text-black text-sm font-semibold w-fit">
+                    ASUCD Pantry
+                  </div>
+                </div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-[#7097A8] bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 "></div>
               </div>
             </motion.div>
           </div>
