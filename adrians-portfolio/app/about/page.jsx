@@ -264,7 +264,7 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-[#7097A8] text-black p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Full Stack Developer Intern{" "}
+                    Software Engineering Intern{" "}
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic text-black">
