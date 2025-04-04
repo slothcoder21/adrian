@@ -32,13 +32,13 @@ const AboutPage = () => {
             <h1 className="font-bold text-4xl text-black">Who am I?</h1>
                         <div>
                             <h2 className= "font-semibold text-xl text-black">Adrian Lam</h2>
-                            <h3 className="text-black font-semibold">UC Davis '26. Student, Software Engineering Intern, and AI Researcher</h3> 
+                            <h3 className="text-black font-semibold">UC Davis '26. Student, Software Engineering Intern and ML Researcher</h3> 
                         </div>
                         <p className="text-black">
                           Hi, my name is Adrian Lam and I am a 4th year Computer Science and Statistcs student at the University of California, Davis.
                         </p>
                         <p className="text-black">
-                            My technical interests include: Machine Learning, Artificial Intelligence, Product Management, Financial Analysis, App Development, and Web Development.
+                            My technical interests include: Machine Learning, Artificial Intelligence, and Full Stack Development.
                         </p>
 
             {/* BIOGRAPHY SCROLL SVG */}
@@ -89,10 +89,7 @@ const AboutPage = () => {
                 Python
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
-                Java
-            </div>
-            <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
-                x86
+                JavaScript
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
                 R
@@ -101,25 +98,22 @@ const AboutPage = () => {
                 MATLAB
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
-                MongoDB
-            </div>
-            <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
-                JavaScript
-            </div>
-            <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
-                TypeScript
-            </div>
-            <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
                 React.js
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
                 React Native
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
-                SCSS
+                CSS
+            </div>
+            <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
+                HTML
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
                 Tailwind CSS
+            </div>
+            <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
+                Next.js
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
                 SQLite
@@ -128,28 +122,28 @@ const AboutPage = () => {
                 SQL
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
+                PostgreSQL
+            </div>
+            <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
                 Flask
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
                 Node.js
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
-                Next.js
+                MongoDB
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
-                Framer Motion
-            </div>
-             <div className="rounded p-2 text-sm  bg-[#5A5A5A] text-white shadow">
-                Three.js
-            </div>
-            <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
-                Firebase
+                AWS
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
                 Git
             </div>
             <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
                 Figma
+            </div>
+            <div className="rounded  p-2 text-sm  bg-[#5A5A5A] text-white shadow">
+                Next.js
             </div>
             </motion.div>
             {/* SKILL SCROLL SVG */}
@@ -351,6 +345,38 @@ const AboutPage = () => {
                 </div>
                 {/* RIGHT */}
                 <div className="w-1/3 "></div>
+              </div>
+              {/* EXPERIENCE LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 "></div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-[#7097A8] bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 ">
+                  {/* JOB TITLE */}
+                  <div className="bg-[#7097A8] text-black p-3 font-semibold rounded-b-lg rounded-e-lg">
+                    Undergradute Researcher
+                  </div>
+                  {/* JOB DESC */}
+                  <div className="p-3 text-sm italic text-black">
+                    Developing ML models for equipment safety{" "}
+                  </div>
+                  {/* JOB DATE */}
+                  <div className="p-3 text-black text-sm font-semibold">
+                    2025 - {" "}
+                  </div>
+                  {/* JOB COMPANY */}
+                  <div className="p-1 rounded bg-[#7097A8] text-sm font-semibold w-fit text-black">
+                    UC Davis Agriculture Safety Lab
+                  </div>
+                </div>
               </div>
             </motion.div>
           </div>

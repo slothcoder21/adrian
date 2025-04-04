@@ -74,7 +74,7 @@ const Navbar = () => {
                 ))}
             </div>
             <div className="hidden md:flex gap-4">
-                <Link href="https://github.com/slothcoder21/adrian">
+                <Link href="https://github.com/slothcoder21">
                     <Image src="/github.png" alt="" width={24} height={24} />
                 </Link>
                 <Link href="https://www.linkedin.com/in/adrian-lam-13ab24132/">

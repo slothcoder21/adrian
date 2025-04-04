@@ -4,36 +4,59 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
 
+
 const items = [
     {
         id: 1,
         color: "from-[#7097A8] to-[#64B5F6]",
-        title: "Crypto Prediction",
-        desc: "A deep learning model that takes advantage of Tensorflow and an LSTM algorithm to accrurately predict the price of a cryptocoin.",
-        img: "/cryptocurrency.png",
-        link: "https://github.com/slothcoder21/ecs171final.git",
+        title: "P1",
+        desc: "Currently developing a full stack web app that can predict the results of the F1 race based on the driver, qualifying position, and the circuit name. ",
+        tech: "NextJS, ExpressJS, PostgreSQL",
+        img: "/p1.png",
+        link: "https://github.com/slothcoder21/predictf1",
     },
     {
         id: 2,
-        color:"from-[#64B5F6] to-[#E9C4E9]",
-        title: "Portfolio Website",
-        desc: "This portfolio website was created to showcase my skills and abilities. Using NextJS, Framer Motion, and ThreeJS to create a user friendly experience and showcase my progress.",
-        img: "/portfolioPage.svg",
-        link: "/",
+        color: "from-[#64B5F6] to-[#E9C4E9]",
+        title: "Neural Network",
+        desc: "Created a neural network using only Numpy and Mathematics. Trained and tested the performance of the NN on the Fashion-MNIST dataset.",
+        tech: "Python",
+        img: "/NeuralNetwork.png",
+        link: "https://github.com/slothcoder21/NeuralNetwork",
     },
     {
         id: 3,
         color: "from-[#E9C4E9] to-[#FFD2BD]",
+        title: "Crypto Prediction",
+        desc: "A deep learning model that takes advantage of Tensorflow and an LSTM algorithm to accrurately predict the price of a cryptocoin.",
+        tech: "Python, HTML, CSS, Javascript",
+        img: "/cryptocurrency.png",
+        link: "https://github.com/slothcoder21/ecs171final.git",
+    },
+    {
+        id: 4,
+        color:"from-[#FFD2BD] to-[#FFF4C0]",
+        title: "Portfolio Website",
+        desc: "This portfolio website was created to showcase my skills and abilities. Using NextJS, Framer Motion, and ThreeJS to create a user friendly experience and showcase my progress.",
+        tech: "NextJS",
+        img: "/portfolioPage.svg",
+        link: "/",
+    },
+    {
+        id: 5,
+        color: "from-[#FFF4C0] to-[#C7E8CA]",
         title:"BRIDGE",
         desc: "A social media app created to encourage interaction between families. We noticed that when kids go to college, the relationship between parents and children can easily become distant. We wanted to create an app that would BRIDGE that gap. **Still in Development**",
+        tech: "React Native, Firebase",
         img: "/bridgeLogo.svg",
         link: "https://github.com/slothcoder21/bridge",
     },
     {
-        id: 4,
-        color: "from-[#FFD2BD] to-[#FFF4C0]",
+        id: 6,
+        color: "from-[#C7E8CA] to-[#86BBD8]",
         title: "Heart Disease Calculator",
         desc: "A web app designed to help people see if they are at risk of heart disease. It takes advantage of Neural Networks in the backend to find correlations between massive amounts of health data.",
+        tech: "NextJS, Python",
         img: "/heartDisease.svg",
         link: "https://github.com/rasooly-dev/ECS170Project",
     },
@@ -42,8 +65,13 @@ const items = [
 const PortfolioPage = () => {
   const ref = useRef();
 
+  // Calculate the transform based on the number of projects
+  // Adjust the percentage to ensure all projects are visible
+  const totalProjects = items.length;
+  const scrollRange = `-${(totalProjects - 1) * 100 / totalProjects}%`;
+  
   const { scrollYProgress } = useScroll({ target: ref });
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-80%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", scrollRange]);
 
   return (
     <motion.div
@@ -97,6 +125,9 @@ const PortfolioPage = () => {
                   </div>
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                     {item.desc}
+                  </p>
+                  <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px] text-gray-600">
+                    {item.tech}
                   </p>
                   <Link href={item.link} className="flex justify-end">
                     <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Code</button>
