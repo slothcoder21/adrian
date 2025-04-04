@@ -12,7 +12,7 @@ const items = [
         title: "P1",
         desc: "Currently developing a full stack web app that can predict the results of the F1 race based on the driver, qualifying position, and the circuit name. ",
         tech: "NextJS, ExpressJS, PostgreSQL",
-        img: "/p1.png",
+        img: "/P1.png",
         link: "https://github.com/slothcoder21/predictf1",
     },
     {
