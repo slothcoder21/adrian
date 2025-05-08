@@ -9,7 +9,7 @@ const links = [
     { url: "/" , title:"Home"},
     { url: "/about" , title:"About"},
     { url: "/projects" , title:"Projects"},
-    { url: "/chat", title:"Let's Chat"}
+    { url: "/chat", title:"AI Chat"}
 ];
 
 const Navbar = () => {
