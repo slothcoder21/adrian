@@ -3,6 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
+import { Typewriter } from "nextjs-simple-typewriter";
 
 
 const items = [
@@ -51,15 +52,6 @@ const items = [
         img: "/bridgeLogo.svg",
         link: "https://github.com/slothcoder21/bridge",
     },
-    {
-        id: 6,
-        color: "from-[#C7E8CA] to-[#86BBD8]",
-        title: "Heart Disease Calculator",
-        desc: "A web app designed to help people see if they are at risk of heart disease. It takes advantage of Neural Networks in the backend to find correlations between massive amounts of health data.",
-        tech: "NextJS, Python",
-        img: "/heartDisease.svg",
-        link: "https://github.com/rasooly-dev/ECS170Project",
-    },
 ];
 
 const PortfolioPage = () => {
@@ -82,7 +74,7 @@ const PortfolioPage = () => {
     >
       <div className="h-[600vh] relative" ref={ref}>
         <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-black">
-          My Projects
+          <Typewriter words={["My Projects"]} loop={true} startFrom="Full" deleteSpeed={100} typeSpeed={100} delaySpeed={5000}/>
           <div className="flex flex-col">
             <motion.svg
               initial={{ opacity: 0.2, y: 0 }}

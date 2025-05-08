@@ -3,6 +3,7 @@
 import { motion, useInView, useScroll } from "framer-motion";
 import { useRef } from "react";
 import { Globe } from "@/components/globe";
+import { Typewriter } from "nextjs-simple-typewriter";
 
 const AboutPage = () => {
   const containerRef = useRef();
@@ -29,7 +30,9 @@ const AboutPage = () => {
         <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2">
           {/* BIOGRAPHY CONTAINER */}
           <div className="flex flex-col gap-12 justify-center">
-            <h1 className="font-bold text-4xl text-black">Who am I?</h1>
+                        <h1 className="font-bold text-4xl text-black">
+                          <Typewriter words={["Who am I?"]} loop={true} cursor={true} cursorStyle="|" cursorBlinking={true} typeSpeed={100} deleteSpeed={100} delaySpeed={5000}/>
+                        </h1>
                         <div>
                             <h2 className= "font-semibold text-xl text-black">Adrian Lam</h2>
                             <h3 className="text-black font-semibold">UC Davis '26. Student, Software Engineering Intern and ML Researcher</h3> 

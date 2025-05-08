@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Link from "next/link";
+import { Typewriter } from "nextjs-simple-typewriter";
 
 const Homepage = () => {
     return(
@@ -14,7 +14,9 @@ const Homepage = () => {
                 </div>
                 {/** Text */}
                 <div className="h-1/2 flex flex-col gap-8 justify-center lg:h-full lg:w-1/2">
-                    <h1 className="text-4xl md:text-6xl font-bold text-black">Hi, I'm Adrian.</h1>
+                    <h1 className="text-4xl md:text-6xl font-bold text-black">
+                        <Typewriter words={["Hi, I'm Adrian."]} loop={true} cursor={true} cursorStyle="|" cursorBlinking={true} typeSpeed={100} deleteSpeed={100} delaySpeed={5000}/>
+                    </h1>
                     <p className="text-xl md:text-2xl font-light text-black">Welcome to my personal website! I'm a student at UC Davis and a software engineer.</p>
                     <a href=".\adriansResume.pdf" className="flex flex-row items-center">
                         <Image 

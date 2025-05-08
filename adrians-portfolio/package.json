@@ -12,12 +12,17 @@
     "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.109.5",
     "@react-three/fiber": "^8.17.5",
+    "@tailwindcss/typography": "^0.5.16",
     "emailjs": "^4.0.3",
     "framer-motion": "^11.3.24",
     "gsap": "^3.12.5",
     "next": "14.2.5",
+    "nextjs-simple-typewriter": "^5.2.2",
+    "openai": "^4.97.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-markdown": "^10.1.0",
+    "react-type-animation": "^3.2.0",
     "three": "^0.167.1"
   },
   "devDependencies": {
